@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="local.leaf2.edgeavoidance" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="30" android:targetSdkVersion="30" />
+  <overlay android:targetPackage="android" android:isStatic="false"
+      android:priority="1" android:category="com.android.internal.display_cutout_emulation" />
+  <application android:hasCode="false" android:label="Leaf2 physical edge avoidance" />
+</manifest>

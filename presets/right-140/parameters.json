@@ -1,0 +1,15 @@
+{
+  "model": "Leaf2_P",
+  "firmware": "2025-11-26_19-25_4.0.2-rel_0621_da686c4b1",
+  "side_at_rotation_0": "right",
+  "width_px": 140,
+  "path": "M -140,0 L 0,0 L 0,1680 L -140,1680 Z @right @bind_right_cutout",
+  "expected_logical_size": [
+    1124,
+    1680
+  ],
+  "status": "generated configuration; verify on the target device",
+  "deployment_requirement": "system-trusted overlay or manufacturer signature",
+  "acceptance": "No content on damaged edge; full remaining good area; system and WeRead; 0/180 rotation",
+  "appearance": "Black margin or e-ink ghosting is an observation, not a pure-white requirement"
+}
